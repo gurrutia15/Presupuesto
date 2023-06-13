@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+.presupuesto {
+    background-color: #ebffeb;
+    border: 2px solid #319431;
+}
+
+.gastos {
+    background-color: #ffd6d6;
+    border: 2px solid #9f1e1e;
+}
+
+.btnCalcular {
+    border: 2px solid #319431;
+    color:  #319431;
+}
+
+.btnAñadir {
+    border: 2px solid #9f1e1e ;
+    color:  #9f1e1e;
+}
+
+.inputPresupuesto {
+    background-color: #ebffeb;
+    border-color: #e0d5d8;
+
+    border-width: 1px;
+}
+
+.inputAñadirNombre, .inputAñadirGasto {
+    background-color: #ffd6d6;
+    border-color: #e0d5d8;
+    border-width: 1px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
